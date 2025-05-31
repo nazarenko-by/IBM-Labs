@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import {addItem} from './CartSlice';
 
 import CartItem from './CartItem';
-import './ProductList.css'
+import '@/style/ProductList.css'
 function ProductList({ onHomeClick }) {
     const dispatch = useDispatch();
     const [showCart, setShowCart] = useState(false);
@@ -291,7 +291,7 @@ function ProductList({ onHomeClick }) {
                 <div className="product-grid">
                     {plantsArray.map((category, index) => ( // Loop through each category in plantsArray
                     <div key={index}> {/* Unique key for each category div */}
-                        <h1>
+                        <h1 className="category">
                         <div>{category.category}</div> {/* Display the category name */}
                         </h1>
                         <div className="product-list"> {/* Container for the list of plant cards */}

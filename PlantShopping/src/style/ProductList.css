@@ -59,6 +59,10 @@ body {
     justify-content: center;
 }
 
+.category {
+    padding: 10px;
+}
+
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
@@ -159,10 +163,21 @@ body {
     justify-content: center;
     width: 650px;
     font-size: 19px;
+    gap: 10px;
 }
 .cart{
     color: white;
     display: flex;
+}
+.cart svg {
+    height: 25px;
+    width: 25px;
+}
+.cart svg circle {
+    r: 25;
+}
+.cart svg path {
+    stroke-width: 25px;
 }
 .cart_quantity_count{
     margin-top: 16px;
