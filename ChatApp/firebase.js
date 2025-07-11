@@ -6,12 +6,12 @@ import { getStorage } from 'firebase/storage';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAt02etuCV15A5tW_veEv4oFTQbh06BqIM",
-    authDomain: "reactnative-push-notific-696f4.firebaseapp.com",
-    projectId: "reactnative-push-notific-696f4",
-    storageBucket: "reactnative-push-notific-696f4.firebasestorage.app",
-    messagingSenderId: "489214276411",
-    appId: "1:489214276411:web:f026ca5fdf915a0bf9fd1e"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
 
 export const app = initializeApp(firebaseConfig);
